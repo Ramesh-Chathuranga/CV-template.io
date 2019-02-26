@@ -15,18 +15,17 @@ header {
 }
 
 img {
-  height: 100px;
-  width: 100px;
+  height: 150px;
+  width: 150px;
 }
 
 #name {
   margin-left: 30px;
-  font-size: 25px;
+  font-size: 30px;
 }
 
 #title {
-  font-size: 19px;
-  color: rgba(133, 133, 130, 0.8);
+  font-size: 24px;
 }
 
 aside {
@@ -39,6 +38,7 @@ aside {
 a {
   text-decoration: none;
   color: #3b3939;
+  font-size: 18px;
 }
 
 .asideT {
@@ -46,11 +46,11 @@ a {
 }
 
 .fa-circle {
-  font-size: 8px;
+  font-size: 13px;
 }
 
 .subAside {
-  font-size: 17px;
+  font-size: 21px;
 }
 
 .second {
@@ -64,7 +64,15 @@ a {
 }
 
 .fanS {
-  font-size: 13px;
+  font-size: 17px;
+}
+
+.nom {
+  font-size: 22px;
+}
+
+.nom1 {
+  font-size: 17px;
 }
 
 /*# sourceMappingURL=cv.css.map */
