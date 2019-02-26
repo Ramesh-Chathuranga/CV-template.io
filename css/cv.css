@@ -42,7 +42,9 @@ a {
 }
 
 .asideT {
+  font-family: "Charm", cursive;
   margin-left: 5px;
+  font-size: 25;
 }
 
 .fa-circle {
