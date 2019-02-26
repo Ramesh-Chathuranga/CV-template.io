@@ -1,0 +1,76 @@
+ header{
+     margin-top: 100px;
+ }
+
+#mainBoxHead{
+    margin-left: 300px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% ,-50%)
+    
+}
+
+#imgBox{
+    margin-left: 80px;
+    
+}
+
+img{
+    height: 100px;
+    width: 100px;
+
+}
+
+#name {
+    margin-left: 30px;
+    font-size: 25px;
+    
+}
+
+#title{
+    font-size: 19px;
+    color: rgba(133, 133, 130, 0.8);
+}
+
+aside{
+    height: auto;
+    width: 350px;
+    padding-left: 15px;
+    margin-left: 50px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: rgb(59, 57, 57);
+}
+
+.asideT{
+    
+    margin-left: 5px;
+}
+
+.fa-circle{
+ font-size: 8px;
+}
+
+.subAside{
+    font-size: 17px;
+}
+
+.second{
+    
+    height: auto;
+    margin-right: 50px;
+    
+}
+
+.contentOf{
+    padding-left: 40px;
+    border-left: 2px solid black;
+}
+
+.fanS{
+    font-size: 13px;
+}
