@@ -1,5 +1,5 @@
 header {
-  margin-top: 100px;
+  margin-top: 140px;
 }
 
 #mainBoxHead {
@@ -21,11 +21,11 @@ img {
 
 #name {
   margin-left: 30px;
-  font-size: 30px;
+  font-size: 35px;
 }
 
 #title {
-  font-size: 24px;
+  font-size: 28px;
 }
 
 aside {
@@ -38,13 +38,13 @@ aside {
 a {
   text-decoration: none;
   color: #3b3939;
-  font-size: 18px;
+  font-size: 23px;
 }
 
 .asideT {
   font-family: "Charm", cursive;
   margin-left: 5px;
-  font-size: 25;
+  font-size: 30px;
 }
 
 .fa-circle {
@@ -52,7 +52,7 @@ a {
 }
 
 .subAside {
-  font-size: 23px;
+  font-size: 27px;
 }
 
 .second {
@@ -66,15 +66,27 @@ a {
 }
 
 .fanS {
-  font-size: 17px;
+  font-size: 23px;
 }
 
 .nom {
-  font-size: 22px;
+  font-size: 26px;
+  font-family: "Charm", cursive;
 }
 
 .nom1 {
-  font-size: 17px;
+  font-size: 24px;
+  font-family: "Charm", cursive;
+}
+
+.topic {
+  font-family: "Charm", cursive;
+  font-size: 30px;
+}
+
+.insName {
+  font-family: "Charm", cursive;
+  font-size: 28;
 }
 
 /*# sourceMappingURL=cv.css.map */
