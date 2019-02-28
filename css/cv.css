@@ -3,7 +3,7 @@ header {
 }
 
 #mainBoxHead {
-  margin-left: 300px;
+  margin-left: 250px;
   position: relative;
   left: 50%;
   top: 50%;
@@ -11,7 +11,7 @@ header {
 }
 
 #imgBox {
-  margin-left: 80px;
+  margin-left: 125px;
 }
 
 img {
