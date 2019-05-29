@@ -61,6 +61,7 @@ a{
 .subAside{
    
     font-size: 27px;
+  
 }
 
 .second{
@@ -81,23 +82,31 @@ a{
 
 .nom{
     font-size:26px; 
-    font-family: 'Charm', cursive; 
+    font-family: 'Thasadith', sans-serif;
+    // font-family: 'Charm', cursive; 
  
 }
 
 .nom1{
     font-size: 24px; 
-    font-family: 'Charm', cursive; 
+   font-family: 'Thasadith', sans-serif;
+  //  font-family: 'Charm', cursive; 
 }
 
 .topic{
-    font-family: 'Charm', cursive;
-    
+    // font-family: 'Charm', cursive;
+    font-family: 'Thasadith', sans-serif;
     font-size:30px; 
 }
 
 .nom2{
-    font-family: 'Charm', cursive;
+    // font-family: 'Charm', cursive;
     font-size: 28 !important; 
+    font-family: 'Thasadith', sans-serif;
+}
 
+.asideLink{ 
+    font-family: 'Charm', cursive;
+    font-size: 24 !important; 
+    
 }

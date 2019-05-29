@@ -71,22 +71,27 @@ a {
 
 .nom {
   font-size: 26px;
-  font-family: "Charm", cursive;
+  font-family: "Thasadith", sans-serif;
 }
 
 .nom1 {
   font-size: 24px;
-  font-family: "Charm", cursive;
+  font-family: "Thasadith", sans-serif;
 }
 
 .topic {
-  font-family: "Charm", cursive;
+  font-family: "Thasadith", sans-serif;
   font-size: 30px;
 }
 
 .nom2 {
-  font-family: "Charm", cursive;
   font-size: 28 !important;
+  font-family: "Thasadith", sans-serif;
+}
+
+.asideLink {
+  font-family: "Charm", cursive;
+  font-size: 24 !important;
 }
 
 /*# sourceMappingURL=cv.css.map */
