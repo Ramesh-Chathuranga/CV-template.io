@@ -3,7 +3,7 @@ header {
 }
 
 #mainBoxHead {
-  margin-left: 250px;
+  margin-left: 300px;
   position: relative;
   left: 50%;
   top: 50%;
@@ -21,11 +21,11 @@ img {
 
 #name {
   margin-left: 30px;
-  font-size: 35px;
+  font-size: 30px;
 }
 
 #title {
-  font-size: 28px;
+  font-size: 22px;
 }
 
 aside {
@@ -38,13 +38,13 @@ aside {
 a {
   text-decoration: none;
   color: #3b3939;
-  font-size: 23px;
+  font-size: 18px;
 }
 
 .asideT {
   font-family: "Patua One", cursive;
   margin-left: 5px;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .fa-circle {
@@ -52,7 +52,7 @@ a {
 }
 
 .subAside {
-  font-size: 27px;
+  font-size: 22px;
 }
 
 .second {
@@ -70,12 +70,12 @@ a {
 }
 
 .nom {
-  font-size: 26px;
+  font-size: 21px;
   font-family: "Patua One", cursive;
 }
 
 .nom1 {
-  font-size: 24px;
+  font-size: 19px;
   font-family: "Patua One", cursive;
 }
 
@@ -85,7 +85,7 @@ a {
 }
 
 .nom2 {
-  font-size: 28 !important;
+  font-size: 23 !important;
   font-family: "Patua One", cursive;
 }
 
