@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/Ramesh-Chathuranga/CV-template.io#readme",
   "devDependencies": {
-    "browser-sync": "^2.27.6"
+    "browser-sync": "^2.27.6",
+    "sass": "^1.43.3"
   }
 }
