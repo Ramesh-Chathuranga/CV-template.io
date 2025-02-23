@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document with Sections</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm;
+        }
+
+        /* Page breaks and keeping section name at the top */
+        .section {
+            page-break-before: always;
+            position: relative;
+        }
+
+        .section:before {
+            content: attr(data-title);
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background: #fff;
+            padding: 10px;
+            font-weight: bold;
+            font-size: 1.25rem;
+            text-align: center;
+            border-bottom: 2px solid #000;
+        }
+
+        /* Style for the page content */
+        .content {
+            padding-top: 40px; /* Adjust as needed */
+        }
+    </style>
+</head>
+<body class="font-sans">
+    <div class="section" data-title="Section 1: Introduction">
+        <div class="content">
+            <h2 class="text-xl font-semibold mb-4">Introduction</h2>
+            <p>This is the introduction content...</p>
+        </div>
+    </div>
+
+    <div class="section" data-title="Section 2: Methods">
+        <div class="content">
+            <h2 class="text-xl font-semibold mb-4">Methods</h2>
+            <p>This is the methods section...</p>
+        </div>
+    </div>
+
+    <div class="section" data-title="Section 3: Results">
+        <div class="content">
+            <h2 class="text-xl font-semibold mb-4">Results</h2>
+            <p>This is the results section...</p>
+        </div>
+    </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const element = document.body;
+        const options = {
+            margin: 10,
+            filename: 'document.pdf',
+            image: { type: 'jpeg', quality: 0.98 },
+            html2canvas: { scale: 2 },
+            jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
+        };
+        
+        html2pdf().from(element).set(options).save();
+    });
+</script>
+</html>
